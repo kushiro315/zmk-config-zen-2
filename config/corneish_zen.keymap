@@ -382,6 +382,160 @@
             bindings = <&kp M &kp O>;
             label = "MO";
         };
+
+        ya: ya {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp Y &kp A>;
+            label = "YA";
+        };
+
+        yu: yu {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp Y &kp U>;
+            label = "YU";
+        };
+
+        yo: yo {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp Y &kp O>;
+            label = "YO";
+        };
+
+        lya: lya {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp L &kp Y &kp A>;
+            label = "LYA";
+        };
+
+        lyu: lyu {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp L &kp Y &kp U>;
+            label = "LYU";
+        };
+
+        lyo: lyo {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp L &kp Y &kp O>;
+            label = "LYO";
+        };
+
+        ra: ra {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp R &kp A>;
+            label = "RA";
+        };
+
+        ri: ri {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp R &kp I>;
+            label = "RI";
+        };
+
+        ru: ru {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp R &kp U>;
+            label = "RU";
+        };
+
+        re: re {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp R &kp E>;
+            label = "RE";
+        };
+
+        ro: ro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp R &kp O>;
+            label = "RO";
+        };
+
+        wa: wa {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp W &kp A>;
+            label = "WA";
+        };
+
+        wi: wi {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp W &kp I>;
+            label = "WI";
+        };
+
+        we: we {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp W &kp E>;
+            label = "WE";
+        };
+
+        wo: wo {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp W &kp O>;
+            label = "WO";
+        };
+
+        nn: nn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp N &kp N>;
+            label = "NN";
+        };
+
+        vu: vu {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp V &kp U>;
+            label = "VU";
+        };
+
+        la: la {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp L &kp A>;
+            label = "LA";
+        };
+
+        li: li {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp L &kp I>;
+            label = "LI";
+        };
+
+        lu: lu {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp L &kp U>;
+            label = "LU";
+        };
+
+        le: le {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp L &kp E>;
+            label = "LE";
+        };
+
+        lo: lo {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp L &kp O>;
+            label = "LO";
+        };
     };
 
     keymap {

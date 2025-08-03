@@ -284,6 +284,104 @@
             bindings = <&kp H &kp O>;
             label = "HO";
         };
+
+        ba: ba {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp B &kp A>;
+            label = "BA";
+        };
+
+        bi: bi {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp B &kp I>;
+            label = "BI";
+        };
+
+        bu: bu {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp B &kp U>;
+            label = "BU";
+        };
+
+        be: be {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp B &kp E>;
+            label = "BE";
+        };
+
+        bo: bo {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp B &kp O>;
+            label = "BO";
+        };
+
+        pa: pa {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp P &kp A>;
+            label = "PA";
+        };
+
+        pi: pi {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp P &kp I>;
+            label = "PI";
+        };
+
+        pu: pu {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp P &kp E>;
+            label = "PU";
+        };
+
+        po: po {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp P &kp O>;
+            label = "PO";
+        };
+
+        ma: ma {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp M &kp A>;
+            label = "MA";
+        };
+
+        mi: mi {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp M &kp I>;
+            label = "MI";
+        };
+
+        mu: mu {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp M &kp U>;
+            label = "MU";
+        };
+
+        me: me {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp M &kp E>;
+            label = "ME";
+        };
+
+        mo: mo {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp M &kp O>;
+            label = "MO";
+        };
     };
 
     keymap {

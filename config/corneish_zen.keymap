@@ -221,6 +221,69 @@
             bindings = <&kp D &kp O>;
             label = "DO";
         };
+
+        na: na {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp N &kp A>;
+            label = "NA";
+        };
+
+        ni: ni {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp N &kp I>;
+            label = "NI";
+        };
+
+        nu: nu {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp N &kp U>;
+            label = "NU";
+        };
+
+        ne: ne {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp N &kp O>;
+            label = "NE";
+        };
+
+        ha: ha {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp H &kp A>;
+            label = "HA";
+        };
+
+        hi: hi {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp H &kp I>;
+            label = "HI";
+        };
+
+        hu: hu {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp H &kp U>;
+            label = "HU";
+        };
+
+        he: he {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp H &kp E>;
+            label = "HE";
+        };
+
+        ho: ho {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp H &kp O>;
+            label = "HO";
+        };
     };
 
     keymap {

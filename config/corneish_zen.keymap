@@ -536,6 +536,125 @@
             bindings = <&kp L &kp O>;
             label = "LO";
         };
+
+        bikkuri: bikkuri {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(NUMBER_1)>;
+            label = "BIKKURI";
+        };
+
+        doublequotation: doublequotation {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(NUMBER_2)>;
+            label = "DOUBLEQUOTATION";
+        };
+
+        sharp: sharp {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(NUMBER_3)>;
+            label = "SHARP";
+        };
+
+        doller: doller {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(NUMBER_4)>;
+            label = "DOLLER";
+        };
+
+        percent: percent {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(N5)>;
+            label = "PERCENT";
+        };
+
+        and: and {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(NUMBER_6)>;
+            label = "AND";
+        };
+
+        singlequotation: singlequotation {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(N7)>;
+            label = "SINGLEQUOTATION";
+        };
+
+        kakko1: kakko1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(LANGUAGE_8)>;
+            label = "KAKKO1";
+        };
+
+        kakko2: kakko2 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(N9)>;
+            label = "KAKKO2";
+        };
+
+        equal: equal {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(MINUS)>;
+            label = "EQUAL";
+        };
+
+        nyoro: nyoro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(EQUAL)>;
+            label = "NYORO";
+        };
+
+        plus: plus {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(SEMICOLON)>;
+            label = "PLUS";
+        };
+
+        asterisk: asterisk {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(SINGLE_QUOTE)>;
+            label = "ASTERISK";
+        };
+
+        question: question {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(SLASH)>;
+            label = "QUESTION";
+        };
+
+        underscore: underscore {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(BACKSLASH)>;
+            label = "UNDERSCORE";
+        };
+
+        less_than: new_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(COMMA)>;
+            label = "NEW_MACRO";
+        };
+
+        greater_than: new_than {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(PERIOD)>;
+            label = "NEW_THAN";
+        };
     };
 
     keymap {

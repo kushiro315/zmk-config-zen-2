@@ -657,6 +657,20 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        cb_esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <0 1>;
+        };
+
+        cb_del {
+            bindings = <&kp DELETE>;
+            key-positions = <11 10>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -670,10 +684,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB    &kp Q  &kp W  &kp E     &kp R  &kp T        &kp Y    &kp U  &kp I      &kp O    &kp P     &kp BSPC
-&kp LCTRL  &kp A  &kp S  &kp D     &kp F  &kp G        &kp H    &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z  &kp X  &kp C     &kp V  &kp B        &kp N    &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp BACKSLASH
-                         &kp LGUI  &mo 1  &kp SPACE    &kp RET  &mo 2  &kp RALT
+&kp TAB       &kp Q  &kp W  &kp E         &kp R           &kp T        &kp Y    &kp U  &kp I      &kp O    &kp P     &kp BSPC
+&kp LCTRL     &kp A  &kp S  &kp D         &kp F           &kp G        &kp H    &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
+&kp LEFT_WIN  &kp Z  &kp X  &kp C         &kp V           &kp B        &kp N    &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp BACKSLASH
+                            &kp LEFT_ALT  &kp LEFT_SHIFT  &kp SPACE    &kp RET  &mo 1  &mo 2
             >;
         };
 
@@ -709,6 +723,47 @@
 &kp LSHFT  &trans    &trans  &trans    &trans    &trans       &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
                              &kp LGUI  &trans    &kp SPACE    &kp RET    &trans     &kp RALT
             >;
+        };
+
+        layer_3 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans              &trans    &trans  &trans            &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans              &trans    &trans  &trans            &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans              &trans    &trans  &trans            &trans  &trans  &trans  &trans
+                        &trans  &lt 4 INT_MUHENKAN  &trans    &trans  &lt 5 INT_HENKAN  &trans
+            >;
+        };
+
+        layer_4 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
+            >;
+        };
+
+        layer_5 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
+            >;
+        };
+    };
+
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+
+        oyayubi_hidari {
+            if-layers = <3>;
+            then-layer = <4>;
+        };
+
+        oyayubi_migi {
+            if-layers = <3>;
+            then-layer = <5>;
         };
     };
 };

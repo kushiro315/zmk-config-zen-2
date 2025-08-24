@@ -551,6 +551,13 @@
             bindings = <&kp P &kp E>;
             label = "M_PE";
         };
+
+        m_surassyu: m_surassyu {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp S &kp U &kp R &kp A &kp S &kp S &kp Y &kp U>;
+            label = "M_SURASSYU";
+        };
     };
 
     combos {

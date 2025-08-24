@@ -682,7 +682,7 @@
         OYAYUBI_MIGI_LAYER {
             bindings = <
 &trans  &trans  &m_ga  &m_da   &m_go          &m_za     &m_yo   &m_ni   &m_ru   &m_ma   &m_le   &trans
-&trans  &m_vu   &m_zi  &m_de   &m_ge          &m_ze     &m_mi   &kp O   &trans  &trans  &trans  &trans
+&trans  &m_vu   &m_zi  &m_de   &m_ge          &m_ze     &m_mi   &kp O   &m_no   &m_lyo  &trans  &trans
 &trans  &trans  &m_bi  &m_zu   &m_bu          &m_be     &trans  &trans  &trans  &trans  &trans  &trans
                        &trans  &m_tog0_muhen  &trans    &trans  &trans  &trans
             >;

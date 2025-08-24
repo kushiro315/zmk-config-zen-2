@@ -660,7 +660,7 @@
             bindings = <
 &trans  &m_la  &kp E      &m_ri   &m_lya  &m_re     &m_pa   &m_di   &m_gu   &m_du   &m_pi          &trans
 &trans  &m_wo  &kp A      &m_na   &m_lyu  &m_mo     &m_ba   &m_do   &m_gi   &m_po   &kp SEMICOLON  &kp ASTERISK
-&trans  &m_lu  &kp MINUS  &m_ro   &m_ya   &m_li     &m_pu   &m_zo   &m_pe   &trans  &trans         &trans
+&trans  &m_lu  &kp MINUS  &m_ro   &m_ya   &m_li     &m_pu   &m_zo   &m_pe   &trans  &m_surassyu    &kp LS(INT_YEN)
                           &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };

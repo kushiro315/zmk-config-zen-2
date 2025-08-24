@@ -656,10 +656,10 @@
 
         NICOLA_LAYER {
             bindings = <
-&trans  &kp PERIOD  &m_ka  &m_ta   &m_ko               &m_sa     &m_ra   &m_ti             &m_ku   &m_tu  &kp COMMA  &trans
-&trans  &kp U       &m_si  &m_te   &m_ke               &m_se     &m_ha   &m_to             &m_ki   &kp I  &m_nn      &kp COLON
-&tog 0  &kp PERIOD  &m_hi  &m_su   &m_hu               &m_he     &m_me   &m_so             &m_ne   &m_ho  &kp SLASH  &kp BACKSLASH
-                           &trans  &lt 5 INT_MUHENKAN  &trans    &trans  &lt 6 INT_HENKAN  &trans
+&trans         &kp PERIOD  &m_ka  &m_ta   &m_ko               &m_sa     &m_ra   &m_ti             &m_ku   &m_tu  &kp COMMA  &trans
+&trans         &kp U       &m_si  &m_te   &m_ke               &m_se     &m_ha   &m_to             &m_ki   &kp I  &m_nn      &kp COLON
+&m_tog0_muhen  &kp PERIOD  &m_hi  &m_su   &m_hu               &m_he     &m_me   &m_so             &m_ne   &m_ho  &kp SLASH  &kp BACKSLASH
+                                  &trans  &lt 5 INT_MUHENKAN  &trans    &trans  &lt 6 INT_HENKAN  &trans
             >;
         };
 

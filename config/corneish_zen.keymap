@@ -644,8 +644,8 @@
 
         OYAYUBI_HIDARI_LAYER {
             bindings = <
-&trans  &m_la  &kp E      &m_ri   &m_lya  &m_re     &m_pa   &m_di   &trans  &trans  &trans  &trans
-&trans  &m_wo  &kp A      &m_na   &m_lyu  &m_mo     &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &m_la  &kp E      &m_ri   &m_lya  &m_re     &m_pa   &m_di   &m_gu   &m_du   &m_pi   &trans
+&trans  &m_wo  &kp A      &m_na   &m_lyu  &m_mo     &ba     &trans  &trans  &trans  &trans  &trans
 &trans  &m_lu  &kp MINUS  &m_ro   &m_ya   &m_li     &trans  &trans  &trans  &trans  &trans  &trans
                           &trans  &trans  &trans    &trans  &trans  &trans
             >;

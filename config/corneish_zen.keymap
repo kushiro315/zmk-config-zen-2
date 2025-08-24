@@ -557,6 +557,16 @@
             bindings = <&kp DELETE>;
             key-positions = <11 10>;
         };
+
+        cb_win_shift_s {
+            bindings = <&kp LS(LG(S))>;
+            key-positions = <35 34>;
+        };
+
+        cb_kana {
+            bindings = <&kp INT_KANA>;
+            key-positions = <41 40>;
+        };
     };
 
     keymap {

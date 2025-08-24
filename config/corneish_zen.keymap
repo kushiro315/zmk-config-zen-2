@@ -615,10 +615,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &trans
-&trans  &trans    &trans  &trans    &trans    &trans       &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
-&trans  &trans    &trans  &trans    &trans    &trans       &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
-                          &trans    &trans    &trans       &trans     &trans     &trans
+&trans  &kp F1   &kp F2   &kp F3  &kp F4  &kp F5     &trans         &kp HOME     &kp UP_ARROW  &kp END        &trans   &trans
+&trans  &kp F6   &kp F7   &kp F8  &kp F9  &kp F10    &kp BACKSPACE  &kp LEFT     &kp DOWN      &kp RIGHT      &kp TAB  &trans
+&trans  &kp F11  &kp F12  &trans  &trans  &trans     &trans         &kp PAGE_UP  &kp LG(S)     &kp PAGE_DOWN  &trans   &trans
+                          &trans  &trans  &trans     &trans         &trans       &trans
             >;
         };
 

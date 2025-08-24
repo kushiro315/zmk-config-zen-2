@@ -725,7 +725,7 @@
             >;
         };
 
-        layer_3 {
+        BLUETOOTH_LAYER {
             bindings = <
 &trans  &trans  &trans  &trans  &trans              &trans    &trans  &trans            &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans              &trans    &trans  &trans            &trans  &trans  &trans  &trans
@@ -734,7 +734,7 @@
             >;
         };
 
-        layer_4 {
+        NICOLA_LAYER {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
@@ -743,7 +743,7 @@
             >;
         };
 
-        layer_5 {
+        OYAYUBI_HIDARI_LAYER {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
@@ -752,7 +752,7 @@
             >;
         };
 
-        layer_6 {
+        OYAYUBI_MIGI_LAYER {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans

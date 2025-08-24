@@ -12,182 +12,182 @@
 
 / {
     macros {
-        ka: ka {
+        m_ka: ka {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp K &kp A>;
             label = "KA";
         };
 
-        ki: ki {
+        m_ki: ki {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp K &kp I>;
             label = "KI";
         };
 
-        ku: ku {
+        m_ku: ku {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp K &kp U>;
             label = "KU";
         };
 
-        ke: ke {
+        m_ke: ke {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp K &kp E>;
             label = "KE";
         };
 
-        ko: ko {
+        m_ko: ko {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp K &kp O>;
             label = "KO";
         };
 
-        ga: ga {
+        m_ga: ga {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp G &kp A>;
             label = "GA";
         };
 
-        gi: gi {
+        m_gi: gi {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp G &kp I>;
             label = "GI";
         };
 
-        gu: gu {
+        m_gu: gu {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp G &kp U>;
             label = "GU";
         };
 
-        ge: ge {
+        m_ge: ge {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp G &kp E>;
             label = "GE";
         };
 
-        go: go {
+        m_go: go {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp G &kp O>;
             label = "GO";
         };
 
-        sa: sa {
+        m_sa: sa {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp S &kp A>;
             label = "SA";
         };
 
-        si: si {
+        m_si: si {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp S &kp I>;
             label = "SI";
         };
 
-        su: su {
+        m_su: su {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp S &kp U>;
             label = "SU";
         };
 
-        se: se {
+        m_se: se {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp S &kp E>;
             label = "SE";
         };
 
-        so: so {
+        m_so: so {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp S &kp O>;
             label = "SO";
         };
 
-        za: za {
+        m_za: za {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp Z &kp A>;
             label = "ZA";
         };
 
-        zi: zi {
+        m_zi: zi {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp Z &kp I>;
             label = "ZI";
         };
 
-        zu: zu {
+        m_zu: zu {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp Z &kp U>;
             label = "ZU";
         };
 
-        ze: ze {
+        m_ze: ze {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp Z &kp E>;
             label = "ZE";
         };
 
-        zo: zo {
+        m_zo: zo {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp Z &kp O>;
             label = "ZO";
         };
 
-        ta: ta {
+        m_ta: ta {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp T &kp A>;
             label = "TA";
         };
 
-        ti: ti {
+        m_ti: ti {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp T &kp I>;
             label = "TI";
         };
 
-        tu: tu {
+        m_tu: tu {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp T &kp U>;
             label = "TU";
         };
 
-        te: te {
+        m_te: te {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp T &kp E>;
             label = "TE";
         };
 
-        to: to {
+        m_to: to {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp T &kp O>;
             label = "TO";
         };
 
-        da: da {
+        m_da: da {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp D &kp A>;
@@ -201,84 +201,84 @@
             label = "DI";
         };
 
-        du: du {
+        m_du: du {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp D &kp U>;
             label = "DU";
         };
 
-        de: de {
+        m_de: de {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp D &kp E>;
             label = "DE";
         };
 
-        do: do {
+        m_do: do {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp D &kp O>;
             label = "DO";
         };
 
-        na: na {
+        m_na: na {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp N &kp A>;
             label = "NA";
         };
 
-        ni: ni {
+        m_ni: ni {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp N &kp I>;
             label = "NI";
         };
 
-        nu: nu {
+        m_nu: nu {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp N &kp U>;
             label = "NU";
         };
 
-        ne: ne {
+        m_ne: ne {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp N &kp O>;
             label = "NE";
         };
 
-        ha: ha {
+        m_ha: ha {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp H &kp A>;
             label = "HA";
         };
 
-        hi: hi {
+        m_hi: hi {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp H &kp I>;
             label = "HI";
         };
 
-        hu: hu {
+        m_hu: hu {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp H &kp U>;
             label = "HU";
         };
 
-        he: he {
+        m_he: he {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp H &kp E>;
             label = "HE";
         };
 
-        ho: ho {
+        m_ho: ho {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp H &kp O>;
@@ -292,368 +292,256 @@
             label = "BA";
         };
 
-        bi: bi {
+        m_bi: bi {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp B &kp I>;
             label = "BI";
         };
 
-        bu: bu {
+        m_bu: bu {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp B &kp U>;
             label = "BU";
         };
 
-        be: be {
+        m_be: be {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp B &kp E>;
             label = "BE";
         };
 
-        bo: bo {
+        m_bo: bo {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp B &kp O>;
             label = "BO";
         };
 
-        pa: pa {
+        m_pa: pa {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp P &kp A>;
             label = "PA";
         };
 
-        pi: pi {
+        m_pi: pi {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp P &kp I>;
             label = "PI";
         };
 
-        pu: pu {
+        m_pu: pu {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp P &kp E>;
             label = "PU";
         };
 
-        po: po {
+        m_po: po {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp P &kp O>;
             label = "PO";
         };
 
-        ma: ma {
+        m_ma: ma {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp M &kp A>;
             label = "MA";
         };
 
-        mi: mi {
+        m_mi: mi {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp M &kp I>;
             label = "MI";
         };
 
-        mu: mu {
+        m_mu: mu {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp M &kp U>;
             label = "MU";
         };
 
-        me: me {
+        m_me: me {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp M &kp E>;
             label = "ME";
         };
 
-        mo: mo {
+        m_mo: mo {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp M &kp O>;
             label = "MO";
         };
 
-        ya: ya {
+        m_ya: ya {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp Y &kp A>;
             label = "YA";
         };
 
-        yu: yu {
+        m_yu: yu {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp Y &kp U>;
             label = "YU";
         };
 
-        yo: yo {
+        m_yo: yo {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp Y &kp O>;
             label = "YO";
         };
 
-        lya: lya {
+        m_lya: lya {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp L &kp Y &kp A>;
             label = "LYA";
         };
 
-        lyu: lyu {
+        m_lyu: lyu {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp L &kp Y &kp U>;
             label = "LYU";
         };
 
-        lyo: lyo {
+        m_lyo: lyo {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp L &kp Y &kp O>;
             label = "LYO";
         };
 
-        ra: ra {
+        m_ra: ra {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp R &kp A>;
             label = "RA";
         };
 
-        ri: ri {
+        m_ri: ri {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp R &kp I>;
             label = "RI";
         };
 
-        ru: ru {
+        m_ru: ru {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp R &kp U>;
             label = "RU";
         };
 
-        re: re {
+        m_re: re {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp R &kp E>;
             label = "RE";
         };
 
-        ro: ro {
+        m_ro: ro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp R &kp O>;
             label = "RO";
         };
 
-        wa: wa {
+        m_wa: wa {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp W &kp A>;
             label = "WA";
         };
 
-        wi: wi {
+        m_wi: wi {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp W &kp I>;
             label = "WI";
         };
 
-        we: we {
+        m_we: we {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp W &kp E>;
             label = "WE";
         };
 
-        wo: wo {
+        m_wo: wo {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp W &kp O>;
             label = "WO";
         };
 
-        nn: nn {
+        m_nn: nn {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp N &kp N>;
             label = "NN";
         };
 
-        vu: vu {
+        m_vu: vu {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp V &kp U>;
             label = "VU";
         };
 
-        la: la {
+        m_la: la {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp L &kp A>;
             label = "LA";
         };
 
-        li: li {
+        m_li: li {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp L &kp I>;
             label = "LI";
         };
 
-        lu: lu {
+        m_lu: lu {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp L &kp U>;
             label = "LU";
         };
 
-        le: le {
+        m_le: le {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp L &kp E>;
             label = "LE";
         };
 
-        lo: lo {
+        m_lo: lo {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp L &kp O>;
             label = "LO";
         };
 
-        bikkuri: bikkuri {
+        m_tog4_hen: m_tog4_hen {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(NUMBER_1)>;
-            label = "BIKKURI";
-        };
-
-        doublequotation: doublequotation {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(NUMBER_2)>;
-            label = "DOUBLEQUOTATION";
-        };
-
-        sharp: sharp {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(NUMBER_3)>;
-            label = "SHARP";
-        };
-
-        doller: doller {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(NUMBER_4)>;
-            label = "DOLLER";
-        };
-
-        percent: percent {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(N5)>;
-            label = "PERCENT";
-        };
-
-        and: and {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(NUMBER_6)>;
-            label = "AND";
-        };
-
-        singlequotation: singlequotation {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(N7)>;
-            label = "SINGLEQUOTATION";
-        };
-
-        kakko1: kakko1 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(LANGUAGE_8)>;
-            label = "KAKKO1";
-        };
-
-        kakko2: kakko2 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(N9)>;
-            label = "KAKKO2";
-        };
-
-        equal: equal {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(MINUS)>;
-            label = "EQUAL";
-        };
-
-        nyoro: nyoro {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(EQUAL)>;
-            label = "NYORO";
-        };
-
-        plus: plus {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(SEMICOLON)>;
-            label = "PLUS";
-        };
-
-        asterisk: asterisk {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(SINGLE_QUOTE)>;
-            label = "ASTERISK";
-        };
-
-        question: question {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(SLASH)>;
-            label = "QUESTION";
-        };
-
-        underscore: underscore {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(BACKSLASH)>;
-            label = "UNDERSCORE";
-        };
-
-        less_than: new_macro {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(COMMA)>;
-            label = "NEW_MACRO";
-        };
-
-        greater_than: new_than {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(PERIOD)>;
-            label = "NEW_THAN";
+            bindings = <&tog 4 &kp INT_HENKAN>;
+            label = "M_TOG4_HEN";
         };
     };
 
@@ -684,10 +572,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB       &kp Q  &kp W  &kp E         &kp R           &kp T        &kp Y        &kp U  &kp I      &kp O    &kp P     &kp BSPC
-&kp LCTRL     &kp A  &kp S  &kp D         &kp F           &kp G        &kp H        &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LEFT_WIN  &kp Z  &kp X  &kp C         &kp V           &lt 3 B      &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp BACKSLASH
-                            &kp LEFT_ALT  &kp LEFT_SHIFT  &kp SPACE    &lt 1 ENTER  &mo 1  &mo 2
+&kp TAB       &kp Q  &kp W  &kp E         &kp R           &kp T        &kp Y        &kp U    &kp I      &kp O    &kp P     &kp BSPC
+&kp LCTRL     &kp A  &kp S  &kp D         &kp F           &kp G        &kp H        &kp J    &kp K      &kp L    &kp SEMI  &kp SQT
+&kp LEFT_WIN  &kp Z  &kp X  &kp C         &kp V           &lt 3 B      &kp N        &kp M    &kp COMMA  &kp DOT  &kp FSLH  &kp BACKSLASH
+                            &kp LEFT_ALT  &kp LEFT_SHIFT  &kp SPACE    &lt 1 ENTER  &m_mo 1  &m_mo 2
             >;
         };
 

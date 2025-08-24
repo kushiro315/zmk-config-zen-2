@@ -565,6 +565,13 @@
             bindings = <&tog 0 &kp INT_MUHENKAN>;
             label = "M_TOG0_MUHEN";
         };
+
+        m_no: m_no {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp N &kp O>;
+            label = "M_NO";
+        };
     };
 
     combos {

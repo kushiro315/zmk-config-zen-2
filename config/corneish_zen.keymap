@@ -644,10 +644,10 @@
 
         OYAYUBI_HIDARI_LAYER {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&trans  &m_la  &kp E      &m_ri   &m_lya  &m_re     &m_pa   &di     &trans  &trans  &trans  &trans
+&trans  &m_wo  &kp A      &m_na   &m_lyu  &m_mo     &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &m_lu  &kp MINUS  &m_ro   &m_ya   &m_li     &trans  &trans  &trans  &trans  &trans  &trans
+                          &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
 

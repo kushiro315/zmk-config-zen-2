@@ -544,6 +544,13 @@
             bindings = <&tog 4 &kp INT_HENKAN>;
             label = "M_TOG4_HEN";
         };
+
+        m_pe: m_pe {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp P &kp E>;
+            label = "M_PE";
+        };
     };
 
     combos {

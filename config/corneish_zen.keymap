@@ -664,13 +664,13 @@
         compatible = "zmk,conditional-layers";
 
         oyayubi_hidari {
-            if-layers = <3>;
-            then-layer = <4>;
+            if-layers = <4>;
+            then-layer = <5>;
         };
 
         oyayubi_migi {
-            if-layers = <3>;
-            then-layer = <5>;
+            if-layers = <4>;
+            then-layer = <6>;
         };
     };
 };

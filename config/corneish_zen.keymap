@@ -558,6 +558,13 @@
             bindings = <&kp S &kp U &kp R &kp A &kp S &kp S &kp Y &kp U>;
             label = "M_SURASSYU";
         };
+
+        m_tog0_muhen: m_tog0_muhen {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&tog 0 &kp INT_MUHENKAN>;
+            label = "M_TOG0_MUHEN";
+        };
     };
 
     combos {
